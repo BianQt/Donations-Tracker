@@ -1,0 +1,116 @@
+body{
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header{
+    height: 6em;
+    background-color: black;
+    color: white;
+}
+
+h1{
+    
+    font-size: 3em;
+    padding-top: .4em;
+}
+main{
+    padding: 80px;
+    background-image: url('/assets/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+.col25{
+    background-color: rgba(114, 104, 211, 0.8);
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: 17em;
+    margin: 0 50px;
+    padding-top: 50px;
+}
+label{
+    color: white;
+    font-size: 1.1em;
+}
+input {
+    width: 18em;
+    height: 2em;
+    border: 1px solid #f5f5f5;
+    border-radius: .5em;
+    margin-bottom: 10px;
+}
+select {
+    width: 18em;
+    height: 2em;
+    border: 1px solid #f5f5f5;
+    border-radius: .5em;
+    margin-bottom: 10px;
+}
+option{
+    height: 2em;
+    background-color:#3D3D3D  ;
+    color: white;
+}
+option:hover {
+    background-color:rgb(255, 51, 194);
+}
+
+#submit{
+    background-color: #1F1F1F;
+    color: white;
+    border-style: outset ;
+    margin-top: 30px;
+}
+
+
+
+.col75{
+    background-color: rgba(114, 104, 211, 0.8);
+    box-sizing: border-box;
+    float: left;
+    width: 63%;
+    height: 33em;
+    padding: 100px 0;
+    margin-left: 60px;
+}
+
+ table {
+    border: 1px solid white;
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  tr{
+    height: 20px;
+    background-color:#3D3D3D ;
+}
+  .headerRaw{
+      height: 30px;
+      background-color:#1F1F1F ;
+  }
+
+  th {
+     color: white;
+     border: 1px solid white;
+     width: 33.333%;
+     padding-top: 5px;
+  }
+  td {
+    color: white;
+    border: 1px solid white;
+    font-size: .8em;
+ }
+ 
+
+ button{
+    width: 15em;
+    height: 1.7em;
+    border: 1px solid #f5f5f5;
+    border-radius: .5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 17em;
+ }   

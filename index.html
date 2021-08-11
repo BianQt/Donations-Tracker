@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations-Tracker</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <h1>Donations Tracker</h1>
+    </header>
+    <main>
+        <div class="col25">
+            <form id="form">
+                <fieldset>
+                    <label for="name">Donator Name</label>
+                    <br>
+                    <input type="text" id="name">
+                    <br>
+                    <label for="amount">Donation Amount</label>
+                    <br>
+                    <select  id="amount">
+                        <option value="100">100</option>
+                        <option value="300">300</option>
+                        <option value="500">500</option>
+                    </select>
+                    <br>
+                    <input type="submit" id="submit" value="Submit Query">
+                </fieldset>
+            </form>
+        </div>
+        <div class="col75">
+            <table id="table">
+                <tr class="headerRaw">
+                    <th>Donator Name</th>
+                    <th>Donation Amount</th>
+                    <th>Age</th>
+                </tr>
+
+            </table>
+            <button id="clear">Clear Items</button>
+        </div>
+
+    </main>
+    <footer>
+        <script src="js/app.js"></script>
+
+    </footer>
+</body>
+</html>
